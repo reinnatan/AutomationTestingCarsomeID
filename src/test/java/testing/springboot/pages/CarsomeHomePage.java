@@ -58,7 +58,7 @@ public class CarsomeHomePage {
     }
 
     public void validateResultAutomaticTransmition(){
-        System.out.println("Result car under 100 Mill, automatic transmition");
+        System.out.println("Result car under 100 Million, automatic transmition");
         int result = Integer.parseInt(totalResult.getText().replaceAll(" Hasil", ""));
         Assert.assertTrue(result == 4);
     }
